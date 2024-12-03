@@ -1,0 +1,26 @@
+{
+  "name": "zapcab",
+  "version": "1.0.0",
+  "description": "ride booking",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayabha-jayas/ZapCab.git"
+  },
+  "keywords": [
+    "zapcab"
+  ],
+  "author": "ABJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayabha-jayas/ZapCab/issues"
+  },
+  "homepage": "https://github.com/jayabha-jayas/ZapCab#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "parcel": "^2.13.0"
+  }
+}

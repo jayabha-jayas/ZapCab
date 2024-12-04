@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "ride booking",
   "scripts": {
+    "start": "parcel index.html",
     "test": "jest"
   },
   "repository": {
@@ -19,8 +20,11 @@
   },
   "homepage": "https://github.com/jayabha-jayas/ZapCab#readme",
   "dependencies": {
+    "parcel": "^2.13.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "parcel": "^2.13.0"
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
   }
 }

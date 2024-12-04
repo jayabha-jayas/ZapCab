@@ -1,7 +1,9 @@
-import ReactDOM from "react-dom/client";
-import Header from "./src/Header";
-import Footer from "./src/Footer";
-import Body from "./src/Body";
+import ReactDOM from 'react-dom/client';
+import Header from './src/Header';
+import Footer from './src/Footer';
+import Body from './src/Body';
+import React from 'react';
+
 const App = () => {
   return (
     <div className="App Layout">
@@ -11,5 +13,5 @@ const App = () => {
     </div>
   );
 };
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);

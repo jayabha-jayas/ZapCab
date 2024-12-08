@@ -7,3 +7,4 @@
 - [ ] Add Sonar Qube
 - [ ] Add Code Coverage
 - [ ] Add Deployment / Pipeline
+- [x] Add Tailwind in the project

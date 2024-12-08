@@ -8,3 +8,21 @@
 - [ ] Add Code Coverage
 - [ ] Add Deployment / Pipeline
 - [x] Add Tailwind in the project
+
+##### Development TODO
+
+- [ ] Add Header
+
+  - [ ] Add Logo
+  - [ ] Add Nav Items
+
+- [ ] Add Ride Page Internal Header
+- [ ] Add Image Component
+- [ ] Add Request Ride Component
+
+  - [ ] Title Text
+  - [ ] Loc & Dest Search Components
+  - [ ] Buttons to See price and schedule Later
+
+- [ ] Sign up Button
+- [ ] Add Footer

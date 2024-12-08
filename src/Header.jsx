@@ -11,9 +11,13 @@ const Header = () => {
   const leftItems = ['Ride', 'Drive', 'About'];
   const rightItems = ['Help', 'Login', 'Signup'];
   return (
-    <div className="flex items-center border border-black bg-gradient-to-r from-indigo-500 to-blue-500 ">
-      <Logo />
-      <NavItems leftItems={leftItems} rightItems={rightItems} />
+    <div className="flex justify-between  border border-black bg-gradient-to-r from-indigo-500 to-blue-500 ">
+      <div className="flex">
+        <Logo />
+        <NavItems items={leftItems} />
+      </div>
+
+      <NavItems items={rightItems} />
     </div>
   );
 };

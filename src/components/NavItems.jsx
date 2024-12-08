@@ -3,14 +3,11 @@ import React from 'react';
 import NavGroup from './NavGroup';
 
 const NavItems = (props) => {
-  const { rightItems, leftItems } = props;
+  const { items } = props;
   return (
-    <div className="flex justify-between items-center">
-      <div className="mr-60">
-        <NavGroup items={leftItems} />
-      </div>
+    <div className="flex items-center">
       <div>
-        <NavGroup items={rightItems} />
+        <NavGroup items={items} />
       </div>
     </div>
   );
